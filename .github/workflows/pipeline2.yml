@@ -1,0 +1,15 @@
+name: Test CDCI 1
+
+on: push
+
+jobs: 
+  job1:
+    name: testing
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: echo
+      run: "echo hello"
+    - name: show directory
+      run: "pwd"
+     
