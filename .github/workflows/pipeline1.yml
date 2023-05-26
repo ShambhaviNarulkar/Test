@@ -1,0 +1,17 @@
+name: Test CDCI 1
+
+on: pull_request
+
+jobs: 
+  job1:
+    name: make directory
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: mkdir
+      run: "mkdir newdir"
+    - name: enter the directory
+      run: "cd newdir"
+    - name: show directory
+      run: "pwd"
+     
