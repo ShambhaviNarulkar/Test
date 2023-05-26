@@ -1,4 +1,4 @@
-name: Test CDCI 1
+name: Test CDCI 2
 
 on: push
 
@@ -9,7 +9,7 @@ jobs:
     
     steps:
     - name: echo
-      run: "echo hello"
+      run: "echo hello i am working!"
     - name: mkdir
       run: "mkdir newdir"
     - name: show files in directory
