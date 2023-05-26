@@ -10,6 +10,6 @@ jobs:
     steps:
     - name: echo
       run: "echo hello"
-    - name: show directory
-      run: "pwd"
+    - name: show files in directory
+      run: "ls"
      
