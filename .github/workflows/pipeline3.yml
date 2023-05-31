@@ -16,8 +16,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
     
     - name: Build 
-      run: "docker build ."
-      working-directory: ./Docker_app
+      run: "docker build https://github.com/ShambhaviNarulkar/Test/rootfs.git#main:Docker_app"
       
     - name: Push
       run: "docker image push"
