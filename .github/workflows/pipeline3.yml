@@ -16,8 +16,8 @@ jobs:
         password: ${{ secrets.PASSWORD }}
     
     - name: Build 
-      run: "docker build https://github.com/ShambhaviNarulkar/Test.git#main:Docker_app -t shambhavinarulkar/dockerimage"
+      run: "docker build https://github.com/ShambhaviNarulkar/Test.git#main:Docker_app -t ${{ secrets.USERNAME }}/dockerimage"
       
     - name: Push
-      run: "docker push shambhavinarulkar/dockerimage"
+      run: "docker push ${{ secrets.USERNAME }}/dockerimage"
       
