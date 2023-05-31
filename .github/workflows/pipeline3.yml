@@ -19,5 +19,5 @@ jobs:
       run: "docker build https://github.com/ShambhaviNarulkar/Test.git#main:Docker_app"
       
     - name: Push
-      run: "docker image push"
+      run: "docker push shambhavinarulkar/testrepo:tagname"
       
