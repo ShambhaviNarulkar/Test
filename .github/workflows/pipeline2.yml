@@ -1,4 +1,4 @@
-name: Test CDCI 2
+name: Test CICD 2
 
 on: push
 
