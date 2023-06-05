@@ -1,4 +1,4 @@
-name: Test CDCI 1
+name: Test CICD 1
 
 on: pull_request
 
